@@ -1,0 +1,18 @@
+# Secrets: never commit these
+.env
+*.env
+
+# Local data
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and personal launchers
+.vscode/
+.idea/
+start_bot.bat
